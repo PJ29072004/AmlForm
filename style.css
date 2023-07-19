@@ -1,0 +1,78 @@
+*{
+    overscroll-behavior: contain;
+    border-radius: 10px;
+    border: 0px;
+    margin: 5px;
+    font-size: xx-large;
+}
+::-webkit-scrollbar{
+    background: rgb(13, 3, 27);
+}
+::-webkit-scrollbar-thumb{
+    background:rgb(57, 12, 119);
+    border-radius: 5px;
+}
+::-webkit-scrollbar-corner{
+    background:rgb(12, 17, 119);
+    border-radius: 5px;
+}
+body{
+    margin: 0;
+    background-color: rgb(9, 1, 41);
+    color: aliceblue;
+}
+#C{
+    position: fixed;
+    margin: 0,0;
+    border: 1px solid black;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    border-radius: 0;
+}
+div{
+    padding: 20px;
+    color: aliceblue;
+}
+p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    word-wrap:break-word;
+    white-space:pre-wrap;
+}
+a{
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    left: 0;
+    height: 15vh;
+    text-align: center;
+    vertical-align: middle;
+    background-color: black;
+    color: aqua;
+    text-decoration: none;
+    font-size: 10vh;
+    opacity: 50%;
+}
+a:hover{
+    background-color: aqua;
+    color: black;
+}
+input{
+    resize: vertical;
+    background-color: rgba(8, 56, 78, 0.499);
+    color: aliceblue;
+    width:95%;
+    height:10vh;
+    font-size: xx-large;
+    text-align: center;
+    vertical-align: middle;
+}
+input:hover{
+    background-color: rgb(17, 128, 128);
+}
+.submit{
+    background-color: rgba(9, 84, 63, 0.433);
+    width: 47%;
+}

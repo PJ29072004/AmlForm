@@ -1,38 +1,23 @@
 *{
     overscroll-behavior: contain;
     border-radius: 10px;
-    border: 0px;
-    margin: 5px;
     font-size: xx-large;
-}
-::-webkit-scrollbar{
-    background: rgb(13, 3, 27);
-}
-::-webkit-scrollbar-thumb{
-    background:rgb(57, 12, 119);
-    border-radius: 5px;
-}
-::-webkit-scrollbar-corner{
-    background:rgb(12, 17, 119);
-    border-radius: 5px;
+    border: 0;
+    margin: 0.5vw;
+    padding: 0;
 }
 body{
-    margin: 0;
     background-color: rgb(9, 1, 41);
     color: aliceblue;
 }
 #C{
     position: fixed;
-    margin: 0,0;
     border: 1px solid black;
-    padding: 0;
     width: 100vw;
     height: 100vh;
     z-index: -1;
-    border-radius: 0;
 }
 div{
-    padding: 20px;
     color: aliceblue;
 }
 p{
@@ -64,10 +49,10 @@ input{
     background-color: rgba(8, 56, 78, 0.499);
     color: aliceblue;
     width:95%;
-    height:10vh;
     font-size: xx-large;
     text-align: center;
     vertical-align: middle;
+    height: 0;
 }
 input:hover{
     background-color: rgb(17, 128, 128);
@@ -75,4 +60,12 @@ input:hover{
 .submit{
     background-color: rgba(9, 84, 63, 0.433);
     width: 47%;
+    height: 10vh;
+    display: none;
 }
+.name,.email{
+    width: 47%;
+    visibility: hidden;
+}
+
+
